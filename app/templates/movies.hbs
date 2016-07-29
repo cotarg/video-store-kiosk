@@ -1,0 +1,7 @@
+<h1>I am a movies!</h1>
+
+{{#each model as |movie|}}
+  <li>{{ movie.title }} <blockquote>{{ movie.id }}</blockquote></li>
+{{/each}}
+
+{{outlet}}
